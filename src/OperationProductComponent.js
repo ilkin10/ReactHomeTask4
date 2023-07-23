@@ -47,6 +47,7 @@ export default function OperationProductComponent() {
 
     // Clear the selected product after updating
     setSelectedProductId(null);
+    setSelectedProduct(null);
 
     alert("Product Updated Successfully");
   }
